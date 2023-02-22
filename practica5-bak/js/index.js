@@ -55,13 +55,13 @@
         tareas.forEach( (tarea, indice) =>{
             listaTareas.innerHTML += `
             <div class='row' id=${indice}>
-                <div class='col-3 border p-3'>
+                <div class='col-3 border p-3 textoAlineado'>
                     <strong>${tarea.nombre}</strong>
                 </div>
-                <div class='col-3 border p-3'>
+                <div class='col-3 border p-3 textoAlineado'>
                     <strong>${tarea.fecha}</strong>
                 </div>
-                <div class='col-2 border p-3'>
+                <div class='col-2 border p-3 textoAlineado'>
                     <strong>${tarea.descripcion}</strong>
                 </div>
                 <div class='col-2 border p-3 text-center'>

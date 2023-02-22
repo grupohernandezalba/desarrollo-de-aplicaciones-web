@@ -9,7 +9,7 @@
         "nombre" : "Ivana Miroslava",
         "apellidos" : "García García",
         "practicas" : 4,
-        "participaciones" : 0
+        "participaciones" : 1
     },
     {
         "nombre" : "Angel Emmanuel",
@@ -27,36 +27,36 @@
         "nombre" : "Joshua Samael",
         "apellidos" : "Martínez Delgado",
         "practicas" : 4,
-        "participaciones" : 0
+        "participaciones" : 1
     },
     {
         "nombre" : "Daniel",
         "apellidos" : "Moreno Vega",
         "practicas" : 4,
-        "participaciones" : 1
+        "participaciones" : 2
     },
     {
         "nombre" : "José de Jesús",
         "apellidos" : "Muñetón Pérez",
         "practicas" : 4,
-        "participaciones" : 0
+        "participaciones" : 1
     },
     {
         "nombre" : "Mónica",
         "apellidos" : "Padilla Ramírez",
         "practicas" : 4,
-        "participaciones" : 0
+        "participaciones" : 1
     },
     {
         "nombre" : "César",
         "apellidos" : "Rosales Llanos",
         "practicas" : 4,
-        "participaciones" : 0
+        "participaciones" : 1
     },
     {
         "nombre" : "Antonia Araceli",
         "apellidos" : "Sánchez Padilla",
         "practicas" : 3,
-        "participaciones" : 1
+        "participaciones" : 4
     }
 ]
