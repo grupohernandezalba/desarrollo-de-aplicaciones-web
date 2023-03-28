@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 7</title>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
 </head>
 <body>
 
-    <p id="lista"></p>
+    <h1 id="lista"></h1>
 
     <script>
         let lista = document.getElementById("lista");
@@ -67,6 +72,41 @@
         html += "</ul>";
 
         lista.innerHTML = html ; 
+
+        let arreglo = [1,2,3];
+        arreglo[6] = 9;
+        console.log(arreglo[4]);
+
+        const frutas = ["Banana","Orange","Apple","Mango"];
+        frutas.sort();
+        console.log(frutas);
+
+        const numeros = [33,2,8];
+        numeros.sort();
+        console.log(numeros);
+
+        var apellido = "Pérez";
+        //ambito global
+
+        let muestraApellido = () => {
+            let apellido = "González";
+            let rfc = "hrt546372";
+            console.log("Dentro de la función:" + apellido);
+        }
+
+        console.log("Fuera:"+ apellido);
+
+        muestraApellido();
+
+        const PI = 3.1416;
+        //PI = 2.2;
+
+        let pais = "MX";
+
+        (()=>{
+            console.log(pais);
+        })();
+        //Función anónima
 
 
 
