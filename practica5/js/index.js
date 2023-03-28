@@ -40,7 +40,7 @@
             listaTareas.innerHTML += `
             <div class='row' id="${indice}">
                 <div class='col-3 border p-3'>
-                    <strong>${tarea.nombre}</strong>
+                    <strong>DATO HOY ES 15 de marzo del 2023  ${tarea.nombre}</strong>
                 </div>
                 <div class='col-2 border p-3'>
                     <strong>${tarea.fecha}</strong>
