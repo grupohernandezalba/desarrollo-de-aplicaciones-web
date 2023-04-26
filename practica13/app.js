@@ -5,6 +5,15 @@ const app = Vue.createApp({
         return {
             nombre : 'Mario'
         }
+    },
+    methods: {
+        cambiarNombre(){
+            this.nombre = 'Luigi';
+            this.cambiarMayusculas();
+        },
+        cambiarMayusculas() {
+            this.nombre = this.nombre.toUpperCase();
+        }
     }
 });
 

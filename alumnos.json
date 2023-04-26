@@ -17,7 +17,7 @@
         "nombre" : "Angel Emmanuel",
         "apellidos" : "García Venegas",
         "practicas" : 3,
-        "participaciones" : 0,
+        "participaciones" : 1,
         "foto" : "https://api.readyplayer.me/v1/avatars/6415fee3b1fd554d9f9c4eae.png"
     },
     {
@@ -38,21 +38,21 @@
         "nombre" : "Daniel",
         "apellidos" : "Moreno Vega",
         "practicas" : 1,
-        "participaciones" : 1,
+        "participaciones" : 2,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6419afcc398f7e86e696f787/ShjXTv.jpeg"
     },
     {
         "nombre" : "José de Jesús",
         "apellidos" : "Muñetón Pérez",
         "practicas" : 2,
-        "participaciones" : 1,
+        "participaciones" : 2,
         "foto" : "https://api.readyplayer.me/v1/avatars/641924b4398f7e86e6962997.png"
     },
     {
         "nombre" : "Mónica",
         "apellidos" : "Padilla Ramírez",
         "practicas" : 1,
-        "participaciones" : 1,
+        "participaciones" : 2,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6419b0ff04207164c854547b/xJMdyX.jpeg"
     },
     {
@@ -66,7 +66,7 @@
         "nombre" : "Antonia Araceli",
         "apellidos" : "Sánchez Padilla",
         "practicas" : 2,
-        "participaciones" : 3,
+        "participaciones" : 4,
         "foto" : "https://api.readyplayer.me/v1/avatars/6419af37398f7e86e696f68d.png"
     }
 ]

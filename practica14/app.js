@@ -1,11 +1,8 @@
-
-
   const { createApp } = Vue
-
   createApp({
     data() {
       return {
-        edad: 0
+        edad: 10
       }
     }
   }).mount('#miApp');
