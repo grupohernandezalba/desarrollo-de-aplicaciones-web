@@ -9,7 +9,7 @@
 <body>
     <div id="miApp"> 
         <ul>
-            <li v-for="lenguaje in lenguajes" :key="lenguaje">{{ lenguaje }}</li>
+            <li v-for="lenguaje in lenguajes" :key="lenguaje">{{ lenguaje.id }}.- {{ lenguaje }}</li>
         </ul>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

@@ -1,27 +1,24 @@
-
-console.log(Vue);
-
+/*
 const app = Vue.createApp({
     data() {
         return {
-            numero : 10
+            numero : 0
         }
     }
 });
 
 app.mount('#miApp');
 
+*/
 
-/*
-
+  console.log(Vue);
+  
   const { createApp } = Vue
 
   createApp({
     data() {
       return {
-            nombre : 'Mario'
+            numero : 0
       }
     }
   }).mount('#miApp');
-
-  */

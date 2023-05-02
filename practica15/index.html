@@ -8,11 +8,15 @@
 </head>
 <body>
     <div id="miApp">
-        <p>Ingrese un valor entre 1 y 100:
-        <input type="number" v-model="numero"></p>
-        <p v-if="numero<=9">Tiene un dígito</p>
-        <p v-else-if="numero<=99">Tiene dos dígitos</p>
-        <p v-else>Tiene tres dígitos o más</p>
+        <form action="#">
+            <fieldset>
+                <label for="">Ingrese un valor entre 1 y 100 </label>
+                <input type="number" v-model="numero">
+                <p v-if="numero <= 9">Tiene un dígito</p>
+                <p v-else-if="numero <= 99">Tiene dos dígitos</p>
+                <p v-else>Tiene tres dígitos o más</p>
+            </fieldset>
+        </form>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
