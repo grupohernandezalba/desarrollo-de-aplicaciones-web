@@ -1,7 +1,6 @@
 
 const { createApp } = Vue
 
-
 const frases = [
   {
     id : 456,
@@ -27,17 +26,10 @@ createApp({
     }
   },
   methods : {
-    /*
-     agregarFrase( { charCode } ){
-    */
     agregarFrase( event ){
-      /*
-        if(charCode == 13)
-      */
       if(event.charCode == 13)
       {
-        console.log('Enter');
-        this.frases.unshift({
+        this.frases.push({
           texto: this.nueva
         });
         this.nueva = '';

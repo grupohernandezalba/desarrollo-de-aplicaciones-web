@@ -1,9 +1,10 @@
+
   const { createApp } = Vue
 
   createApp({
     data() {
-      return{
-        titulo : 'Super Mario Bros'
+      return {
+        lenguajes: ['C', 'C++', 'C#', 'Java', 'Ruby', 'Kotlin']
       }
     }
   }).mount('#miApp');

@@ -11,21 +11,33 @@
         }
 
         td {
-            border: 1px solid #efefef;  
+            border: 1px solid green;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <div id="miApp"> 
+    <div id="miApp">
         <table>
-            <tr><td>Código</td><td>Descripción</td><td>Precio</td></tr>
-                <tr v-for="articulo in articulos" :key="articulo.codigo">
-                <td>{{articulo.codigo}}</td>
-                <td>{{articulo.descripcion}}</td>
-                <td>{{articulo.precio}}</td>
-                </tr>
+            <tr>
+                <td>
+                    Código
+                </td>
+                <td>
+                    Descripción
+                </td>
+                <td>
+                    Precio
+                </td>
+            </tr>
+            <tr v-for="articulo in articulos">
+                <td>{{ articulo.codigo }}</td>
+                <td>{{ articulo.descripcion }}</td>
+                <td>{{ articulo.precio }}</td>              
+            </tr>
         </table>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
 </body>
+</html>

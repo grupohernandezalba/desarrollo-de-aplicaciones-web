@@ -20,21 +20,7 @@ const frases = [
 createApp({
   data() {
     return {
-      frases : frases,
-      nueva : 'ingresa una nueva frase'
+        frases : frases
     }
-  },
-  methods : {
-    agregarFrase( event ){
-      console.log(event);
-      if(event.charCode == 13)
-      {
-        console.log('Enter');
-        this.frases.unshift({
-          texto: this.nueva
-        });
-        this.nueva = '';
-      }
-    }
-  } 
+  }
 }).mount('#miApp');

@@ -1,26 +1,24 @@
+  const { createApp } = Vue
 
-const { createApp } = Vue
+  const canciones = [
+    {
+      autor : 'Junio H',
+      nombre : 'EL azul'
+    },
+    {
+      autor : 'Roberto Cantoral',
+      nombre : 'El triste'
+    },
+    {
+      autor : 'Juan Carlos Calderon',
+      nombre : 'La incondicional'
+    },
+  ];
 
-
-const frases = [
-  {
-    id : 456,
-    texto: 'El respeto al derecho ajeno es la paz'
-  },
-  {
-    id : 987,
-    texto: 'La medida del amor es amar sin medida'
-  },
-  { 
-    id : 456,
-    texto: 'El dinero no puede comprar la vida '
-  }
-]
-
-createApp({
-  data() {
-    return {
-        frases : frases
+  createApp({
+    data() {
+      return{
+        canciones : canciones
+      }
     }
-  }
-}).mount('#miApp');
+  }).mount('#miApp');

@@ -7,13 +7,9 @@
     <title>VueJS</title>
 </head>
 <body>
-    <div id="miApp">
-        <ul>    
-            <h1>{{ materia }}</h1>
-            <input type="text" v-model="materia" placeholder="Ingrese el nombre de la materia">
-            <li v-for="lenguaje in lenguajes">
-               {{ lenguaje }}
-            </li>
+    <div id="miApp"> 
+        <ul>
+            <li v-for="lenguaje in lenguajes" :key="lenguaje">{{ lenguaje.id }}.- {{ lenguaje }}</li>
         </ul>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

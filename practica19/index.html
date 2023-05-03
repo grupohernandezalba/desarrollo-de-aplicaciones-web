@@ -7,20 +7,14 @@
     <title>VueJS</title>
 </head>
 <body>
-    <div id="miApp"> 
-        <ul v-for="{ id, texto } in frases" :key="id">
-            <li>{{ id }} {{ texto }}</li>
+    <div id="miApp">
+        <ul v-for="{nombre, autor} in canciones" :key="autor">
+            <li>
+            {{nombre}} {{autor}}
+            </li>
         </ul>
-        <hr>
-        <ul v-for="(frase,index) in frases" :key="frase.id">
-            <li>{{ index + 1 }}.- {{ frase.id }} {{ frase.texto }}</li>
-        </ul>
-        <hr>
-        <ul v-for="({ id, texto }, index) in frases" :key="id">
-            <li>{{ index + 1 }}.- {{ id }} {{ texto }}</li>
-        </ul>
-
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
 </body>
+</html>

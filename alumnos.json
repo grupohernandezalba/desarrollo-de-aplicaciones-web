@@ -1,16 +1,16 @@
 [
     {
         "nombre" : "Jaqueline Patrizia",
-        "apellidos" : "Castillo Santoyo (SPOTIFY-AXIOS)",
+        "apellidos" : "Castillo Santoyo EXENTO (SPOTIFY-AXIOS)",
         "practicas" : 8,
-        "participaciones" : 0,
+        "participaciones" : 1,
         "foto" : "https://api.readyplayer.me/v1/avatars/6419aded04207164c8544e34.png"
     },
     {
         "nombre" : "Ivana Miroslava",
         "apellidos" : "García García",
         "practicas" : 8,
-        "participaciones" : 1,
+        "participaciones" : 2,
         "foto" : "https://api.readyplayer.me/v1/avatars/6416760a573e2e1832978a75.png"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
         "nombre" : "Iván Jassiel",
-        "apellidos" : "Gutiérrez Martínez (SPOTIFY-AXIOS)",
+        "apellidos" : "Gutiérrez Martínez EXENTO (SPOTIFY-AXIOS)",
         "practicas" : 1,
         "participaciones" : 0,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6419b18f398f7e86e696fa4a/fvme52.jpeg"
@@ -31,14 +31,14 @@
         "nombre" : "Joshua Samael",
         "apellidos" : "Martínez Delgado",
         "practicas" : 2,
-        "participaciones" : 0,
+        "participaciones" : 1,
         "foto" : "https://api.readyplayer.me/v1/avatars/6419ae0604207164c8544e77.png"
     },
     {
         "nombre" : "Daniel",
-        "apellidos" : "Moreno Vega (SPOTIFY-AXIOS)",
+        "apellidos" : "Moreno Vega EXENTO (SPOTIFY-AXIOS)",
         "practicas" : 7,
-        "participaciones" : 2,
+        "participaciones" : 3,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6419afcc398f7e86e696f787/ShjXTv.jpeg"
     },
     {
@@ -52,7 +52,7 @@
         "nombre" : "Mónica",
         "apellidos" : "Padilla Ramírez EXENTO 2do parcial",
         "practicas" : 6,
-        "participaciones" : 2,
+        "participaciones" : 3,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6419b0ff04207164c854547b/xJMdyX.jpeg"
     },
     {
@@ -66,7 +66,7 @@
         "nombre" : "Antonia Araceli",
         "apellidos" : "Sánchez Padilla",
         "practicas" : 2,
-        "participaciones" : 4,
+        "participaciones" : 5,
         "foto" : "https://api.readyplayer.me/v1/avatars/6419af37398f7e86e696f68d.png"
     }
 ]

@@ -11,11 +11,10 @@
     <div class="container" id="miApp">
         <div class="row">
             <div class="col-12">
-                <input type="text" class="form-control" v-model="nueva" 
-                v-on:keypress.enter="agregarFrase">
-                <ul v-for="frase in frases" :key="frase.id">
-                    <li>{{ frase.id }} {{ frase.texto }}</li>
-                </ul>
+                <input type="text" class="form-control" v-model="titulo">
+                <div class="alert alert-primary my-3" role="alert">
+                    {{ titulo }}
+                </div>
             </div>
         </div>
     </div>
