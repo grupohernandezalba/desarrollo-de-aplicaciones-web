@@ -11,7 +11,7 @@
     <div class="container my-5" id="miApp">
         <div class="row">
             <div class="col-12">
-              <select v-model="dia">
+              <select v-model="dia" class="form-control">
                 <option disabled value="">Seleccione un día</option>
                 <option>Lunes</option>
                 <option>Martes</option>
@@ -21,8 +21,7 @@
                 <option>Sábado</option>
                 <option>Domingo</option>
               </select>
-            </p>
-            <p>Día seleccionado: {{dia}}</p>
+              <p v-if="dia">Día seleccionado: {{ dia }}</p>
             </div>
         </div>
     </div>

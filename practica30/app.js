@@ -5,8 +5,9 @@ createApp({
 
   data() {
     return {
-      tamañoFuente: 20,
-      colorParrafo: '#000'
+      tamanoFuente: 20,
+      colorParrafo: '#000',
+      colorBorde: '#000'
     }
   }
 

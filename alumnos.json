@@ -2,21 +2,21 @@
     {
         "nombre" : "Jaqueline Patrizia",
         "apellidos" : "Castillo Santoyo EXENTO (SPOTIFY-AXIOS)",
-        "practicas" : 8,
+        "practicas" : 18,
         "participaciones" : 1,
         "foto" : "https://api.readyplayer.me/v1/avatars/6419aded04207164c8544e34.png"
     },
     {
         "nombre" : "Ivana Miroslava",
         "apellidos" : "García García",
-        "practicas" : 8,
+        "practicas" : 18,
         "participaciones" : 2,
         "foto" : "https://api.readyplayer.me/v1/avatars/6416760a573e2e1832978a75.png"
     },
     {
         "nombre" : "Angel Emmanuel",
         "apellidos" : "García Venegas EXENTO 2o Parcial (SPOTIFY-AXIOS)",
-        "practicas" : 4,
+        "practicas" : 14,
         "participaciones" : 1,
         "foto" : "https://api.readyplayer.me/v1/avatars/6415fee3b1fd554d9f9c4eae.png"
     },
@@ -29,8 +29,8 @@
     },
     {
         "nombre" : "Joshua Samael",
-        "apellidos" : "Martínez Delgado",
-        "practicas" : 2,
+        "apellidos" : "Martínez Delgado EXENTO (SPOTIFY-VUE)",
+        "practicas" : 12,
         "participaciones" : 1,
         "foto" : "https://api.readyplayer.me/v1/avatars/6419ae0604207164c8544e77.png"
     },
@@ -44,28 +44,28 @@
     {
         "nombre" : "José de Jesús",
         "apellidos" : "Muñetón Pérez EXENTO 2do parcial",
-        "practicas" : 7,
-        "participaciones" : 2,
+        "practicas" : 17,
+        "participaciones" : 3,
         "foto" : "https://api.readyplayer.me/v1/avatars/641924b4398f7e86e6962997.png"
     },
     {
         "nombre" : "Mónica",
         "apellidos" : "Padilla Ramírez EXENTO 2do parcial",
-        "practicas" : 6,
+        "practicas" : 16,
         "participaciones" : 3,
         "foto" : "https://readyplayerme-photobooth.s3.amazonaws.com/6419b0ff04207164c854547b/xJMdyX.jpeg"
     },
     {
         "nombre" : "César",
         "apellidos" : "Rosales Llanos",
-        "practicas" : 8,
-        "participaciones" : 0,
+        "practicas" : 18,
+        "participaciones" : 3,
         "foto" : "https://api.readyplayer.me/v1/avatars/6417c7ba6cb6330c067d949f.png"
     },
     {
         "nombre" : "Antonia Araceli",
         "apellidos" : "Sánchez Padilla",
-        "practicas" : 2,
+        "practicas" : 19,
         "participaciones" : 5,
         "foto" : "https://api.readyplayer.me/v1/avatars/6419af37398f7e86e696f68d.png"
     }

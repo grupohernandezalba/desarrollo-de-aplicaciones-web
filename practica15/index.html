@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,11 +15,12 @@
                 <input type="number" v-model="numero">
                 <p v-if="numero <= 9">Tiene un dígito</p>
                 <p v-else-if="numero <= 99">Tiene dos dígitos</p>
-                <p v-else>Tiene tres dígitos o más</p>
+                <p v-else="">Tiene tres dígitos o más</p>
             </fieldset>
-        </form>
+        </form>      
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
+    
 </body>
 </html>

@@ -1,18 +1,15 @@
 
 const { createApp } = Vue
 
-
 createApp({
-
-  data(){ 
+  data() {
     return {
-      contador: 0
+        contador : 0 
     }
   },
-  methods: {
-    incrementar() {
+  methods : {
+    incrementar(){
       this.contador++;
     }
-  }    
-  
+  } 
 }).mount('#miApp');
