@@ -12,13 +12,9 @@ const HolaMundo = {
   };
 
 createApp({
-
     components: {
-        'hola-mundo': HolaMundo
+        'hola-mundo-feliz': HolaMundo
     },
-    
-    //isCustomElement: tag => tag.startsWith('hola-')
-
 }).mount('#miApp');
 
  
