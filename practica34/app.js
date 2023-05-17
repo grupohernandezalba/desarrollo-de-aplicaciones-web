@@ -1,7 +1,4 @@
-
 const { createApp } = Vue
-
-
 const articulos = {
     props: ['datos'],
     template: `
@@ -21,13 +18,12 @@ const articulos = {
 };
 
 createApp({
-
     components: {
         'articulos': articulos
     },
     data() {
         return {
-            datos: [
+            vegetales: [
                 {
                     codigo: 1,
                     descripcion: 'papas',
@@ -42,6 +38,24 @@ createApp({
                     codigo: 3,
                     descripcion: 'peras',
                     precio: 18.20
+                }
+            ],
+
+            carnes: [
+                {
+                    codigo: 4,
+                    descripcion: 'carne molida',
+                    precio: 212.52
+                }, 
+                {
+                    codigo: 5,
+                    descripcion: 'carne rib eye',
+                    precio: 221
+                }, 
+                {
+                    codigo: 6,
+                    descripcion: 'carne sirloin',
+                    precio: 218.20
                 }
             ]
         }

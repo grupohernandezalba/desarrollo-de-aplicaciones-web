@@ -10,19 +10,19 @@
 <body>
     
     <div id="miApp">
-        <selector-numerico 
-                v-bind:valor="1" 
-                v-bind:minimo="0" 
-                v-bind:maximo="20">
-        </selector-numerico>
-
-        <selector-numerico 
-                v-bind:valor="100" 
-                v-bind:minimo="100" 
-                v-bind:maximo="110">
-        </selector-numerico>
-
+        <dias-semana seleccionado="lunes"></dias-semana>
     </div>
+
+    <template id="dias-semana">
+        <div class="container-fluid" id="dias-semana">
+            <div class="row">
+                <div class="col-12 col-md-1 border py-2 text-center" v-for="dia in dias" :key="dia">
+                        <p v-if="seleccionado==dia"><strong class="text-primary">{{dia}}</strong></p>
+                        <p v-else>{{dia}}</p>
+                </div>
+            </div>
+        </div>
+    </template> 
 
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
