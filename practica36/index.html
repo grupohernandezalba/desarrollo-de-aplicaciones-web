@@ -10,16 +10,18 @@
 <body>
     
     <div id="miApp">
+        <h2>Componente 1</h2>
         <selector-numerico 
-                v-bind:valor="1" 
+                v-bind:valor="10" 
                 v-bind:minimo="0" 
                 v-bind:maximo="20">
         </selector-numerico>
 
+        <h2>Componente 2</h2>
         <selector-numerico 
-                v-bind:valor="100" 
-                v-bind:minimo="100" 
-                v-bind:maximo="110">
+                :valor="100 + 5" 
+                :minimo="100" 
+                :maximo="110">
         </selector-numerico>
 
     </div>
