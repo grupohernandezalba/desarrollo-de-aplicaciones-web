@@ -3,17 +3,12 @@
 </template>
 
 <script>
+  import Decision from './components/Decision.vue';
 
-import Decision from './components/Decision.vue'
-
-export default {
-  name : 'App',
-  components: {
-    Decision
+  export default {
+    name : 'App',
+    components: {
+      Decision
+    }
   }
-}
 </script>
-
-<style>
-
-</style>
