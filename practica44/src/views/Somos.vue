@@ -1,3 +1,3 @@
 <template>
-    <h1>Somos</h1>
+  <h1>Estas en la sección de somos</h1>
 </template>

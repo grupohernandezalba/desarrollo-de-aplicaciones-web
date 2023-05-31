@@ -1,3 +1,4 @@
 <template>
-  <h1>Inicio</h1>
+  <h1>Bienvenido a inicio</h1>
 </template>
+
